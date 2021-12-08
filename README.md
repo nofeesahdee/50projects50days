@@ -12,5 +12,5 @@
 
 ### 3. Rotating Navigation
 
-* [Live Server]()
+* [Live Server](https://nofeesahdee.github.io/50projects50days/rotating-navigation/)
 * [Code]()
