@@ -12,5 +12,10 @@
 
 ### 3. Rotating Navigation
 
-* [Live Server](https://nofeesahdee.github.io/50projects50days/rotating-navigation/)
+* [Live Demo](https://nofeesahdee.github.io/50projects50days/rotating-navigation/)
 * [Code](https://github.com/nofeesahdee/50projects50days/tree/master/rotating-navigation)
+
+### 4. Scroll Animation
+
+* [Live Demo](https://nofeesahdee.github.io/50projects50days/scroll-animation/)
+* [Code](https://github.com/nofeesahdee/50projects50days/tree/master/scroll-animation)
