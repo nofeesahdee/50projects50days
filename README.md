@@ -21,3 +21,8 @@
 
 * [Live Demo](https://nofeesahdee.github.io/50projects50days/scroll-animation/)
 * [Code](https://github.com/nofeesahdee/50projects50days/tree/master/scroll-animation)
+
+### 5. Blurry Image
+
+* [Live Demo](https://nofeesahdee.github.io/50projects50days/blurry-img/)
+* [Code](https://github.com/nofeesahdee/50projects50days/tree/master/blurry-img)
