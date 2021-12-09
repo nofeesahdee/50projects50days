@@ -1,5 +1,7 @@
 # 50projects50days
 
+## My objective for taking this course is to sharpen my javascript. At the end of this course I will be confident enough to take on more complex javascript projects.
+
 ### 1. Expanding Cards
 
 * [Live Demo](https://nofeesahdee.github.io/50projects50days/expanding-cards/)
