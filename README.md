@@ -29,5 +29,5 @@
 
 ### 6. Form Wave Animation
 
-* [Live Site]()
+* [Live Site](https://nofeesahdee.github.io/50projects50days/form-wave-animation/)
 * [Code]()
