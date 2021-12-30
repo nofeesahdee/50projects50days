@@ -1,20 +1,20 @@
-document.querySelector('button').addEventListener('click', loadData);
+const jokeEl = document.getElementById('joke');
+const jokeBtn = document.getElementById('jokeBtn');
 
-function loadData(e){
-    // Creat xml object
-    const xhr = new XMLHttpRequest();
+jokeBtn.addEventListener('click', generateJoke)
 
-    // xhr open
-    xhr.open('GET', 'https://api.chucknorris.io/jokes/random', true);
+generateJoke()
 
-    // xhr onload
-    xhr.onload = function(){
-        if (this.status === 200){
-
+function generateJoke(){
+    const config = {
+        headers: {
+            'Accept': 'application/json'
         }
     }
-
-    // xhr send
-    xhr.send();
-    e.preventDefault()
+    
+        fetch('https://icanhazdadjoke.com',config)
+        .then(res => res.json())
+        .then( data => 
+            jokeEl.innerHTML = data.joke
+        )
 }
