@@ -31,3 +31,8 @@
 
 * [Live Site](https://nofeesahdee.github.io/50projects50days/form-wave-animation/)
 * [Code](https://github.com/nofeesahdee/50projects50days/tree/master/form-wave-animation)
+
+### 7. Dad Jokes
+
+* [Live site] (https://nofeesahdee.github.io/50projects50days/dad-jokes/)
+* [Code](https://github.com/nofeesahdee/50projects50days/tree/master/dad-jokes)
