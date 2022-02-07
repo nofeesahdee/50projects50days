@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+.split{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.split.left{
+    position: absolute;
+    background: url(./images/ps5.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
