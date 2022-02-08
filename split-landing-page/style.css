@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root{
+    --left-bg-color: rgba(87, 84, 236, 0.7);
+    --right-bg-color: rgba(43, 43, 43, 0.8);
+}
 *{
     box-sizing: border-box;
 }
@@ -6,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     overflow: hidden;
@@ -23,8 +27,56 @@ body{
     height: 100%;
 }
 .split.left{
-    position: absolute;
-    background: url(./images/ps5.png);
+    left: 0;
+    background: url(images/ps5.png);
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
+    background-position: center;
+}
+.split.left::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--left-bg-color);
+}
+.split.right{
+    right: 0;
+    background: url(images/xbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.split.right::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--right-bg-color);
+}
+h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.btn{
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    color:#fff ;
+    border: #fff solid 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.2rem ;
+    width: 15rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
