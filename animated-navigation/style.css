@@ -1,7 +1,5 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;   
 }
 body{
     background-color:#eafbff;
@@ -9,13 +7,14 @@ body{
         to bottom, 
         #eafbff 0%, 
         #eafbff 50%, 
-        #5290f9 50%, 
+        #5290f9 50%,
         #5290f9 100%
     );
     display: flex;
     justify-content: center;
     align-items: center;
     min-height:100vh;
+    margin: 0;
 }
 nav{
     background-color: #fff;
@@ -33,7 +32,9 @@ nav.active{
 }
 nav ul{
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     width: 0;
     transition: width 0.6s linear;
 }
@@ -65,13 +66,24 @@ nav ul a{
     height: 30px;
 }
 .icon:focus{
-    outline: none;
+    outline: 0;
 }
 .icon .line{
-    border-color: #5290f9;
+    background-color: #5290f9;
     height: 2px;
     width: 20px;
     position: absolute;
     top: 10px;
     right: 5px;
+    transition: transform 0.6s linear;
+}
+.icon .line2{
+    top: auto;
+    bottom: 10px;
+}
+nav.active .icon .line1{
+    transform: rotate(-765deg) translateY(5.5px);
+}
+nav.active .icon .line2{
+    transform: rotate(765deg) translateY(-5.5px);
 }
